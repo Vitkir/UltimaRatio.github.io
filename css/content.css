@@ -1,37 +1,38 @@
 ﻿.content {
-	align-content: center;
-	width: auto;
+    align-content: center;
+    width: auto;
+    margin-bottom: 100px;
 }
 
-	.content p {
-		color: #7c7c7d;
-	}
+    .content p {
+        color: #7c7c7d;
+    }
 
-	.content a {
-		color: #7c7c7d;
-		text-decoration: none;
-	}
+    .content a {
+        color: #7c7c7d;
+        text-decoration: none;
+    }
 
-		.content a:hover {
-			color: #7c7c7d;
-			text-decoration: underline;
-		}
+        .content a:hover {
+            color: #7c7c7d;
+            text-decoration: underline;
+        }
 
-		.content.contacts{
-			display:block;
-			text-align:center;
-		}
+    .content.contacts {
+        display: block;
+        text-align: center;
+    }
 
 .img_collection img {
-	width: 185px;
-	height: auto;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	vertical-align: top;
-	opacity: 0.8;
-	cursor: pointer;
+    width: 185px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
-	.img_collection img:hover {
-		opacity: 1;
-	}
+    .img_collection img:hover {
+        opacity: 1;
+    }
