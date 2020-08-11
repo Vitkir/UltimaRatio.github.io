@@ -1,8 +1,9 @@
 ﻿/// <reference path="../lib/jquery/dist/jquery.js" />
 
-$(function () {
-    var location = window.location.href,
-        cur_url = (location.split('/').pop());
+function load(path) {
+    $('main.content').load(path);
+
+    cur_url = (path.split('/').pop());
     if (cur_url === "") {
         cur_url = "AboutUs"
     };
@@ -14,8 +15,4 @@ $(function () {
             $(this).addClass('current');
         }
     });
-});
-
-function load(path) {
-    $('main.content').load(path);
 };
