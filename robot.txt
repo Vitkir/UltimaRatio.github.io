@@ -1,0 +1,3 @@
+User-agent: Yandex
+Allow: /
+sitemap: https://saratov.hema.ru/sitemap.xml
