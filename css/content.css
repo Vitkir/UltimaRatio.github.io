@@ -2,6 +2,7 @@
     align-content: center;
     width: auto;
     margin-bottom: 100px;
+    color: #7c7c7d;
 }
 
     .content p {
@@ -36,3 +37,11 @@
     .img_collection img:hover {
         opacity: 1;
     }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr {
+    border-bottom: double;
+}
